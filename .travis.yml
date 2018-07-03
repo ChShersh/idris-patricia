@@ -5,4 +5,7 @@ install:
   - ./install-dependencies.sh
 
 script:
-  - idris --testpkg idris-patricia.ipkg
+  - idris --testpkg patricia.ipkg
+
+notifications:
+  email: false
